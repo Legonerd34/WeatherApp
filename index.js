@@ -9,7 +9,7 @@ const humidityDisplay = document.getElementById("humidity");
 const emojiDisplay = document.getElementById("emoji");
 const timeDisplay = document.getElementById("time");
 
-const API_KEY = "e11bebee015afc5c2fb1efe3e378509a"
+const API_KEY = "YOUR_API_KEY"
 
 form.addEventListener("submit", async event => {
     event.preventDefault();
