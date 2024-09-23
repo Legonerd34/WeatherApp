@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: arial, sans-serif;
+    background-color: lightgrey;  
+
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(126, 126, 255), rgb(233, 183, 91));
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;  
+    min-width: 300px;
+    min-height: 500px;;
+    
+
+
+}
+
+#city {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#temp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+#humidity #time {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+
+}
+#description {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+
+}
+#emoji {
+    font-size: 8rem;
+    margin: 0;
+}
+#error {
+    font-weight: bold;
+    color: red;
+    
+}
+input {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: rgb(130, 130, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(130, 130, 255, 0.605);
+
+}
+
